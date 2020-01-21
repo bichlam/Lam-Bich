@@ -15,6 +15,7 @@ public class Student {
     private int student;
     private String city;
     private double year;
+    private String students;
     
     /**
      * Get the value of name
@@ -74,6 +75,20 @@ public class Student {
      */
     public void setYear(double year) {
         this.year = year;
+    }
+
+    /**
+     * @return the students
+     */
+    public String getStudents() {
+        return students;
+    }
+
+    /**
+     * @param students the students to set
+     */
+    public void setStudents(String students) {
+        this.students = students;
     }
 
 }
