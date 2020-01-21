@@ -7,7 +7,7 @@ package ca.sheridancollege.week1.softwarefundamentals;
 
 /**
  *
- * @author sidhu376
+ * @author Lam Bich 991578047
  */
 public class Student {
     
@@ -15,6 +15,7 @@ public class Student {
     private int student;
     private String city;
     private double year;
+    
     /**
      * Get the value of name
      *
